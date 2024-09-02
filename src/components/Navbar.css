@@ -1,4 +1,19 @@
-.nav-item{
+.nav{
+    position: absolute;
+    margin-top: 0;
+    align-self: top;
+    place-items: center;
+}
+
+a{
     color: black;
-    font-family: "Libre Baskerville";
+    /* align-items: center;
+    align-self: top; */
+}
+
+a.nav-item{
+    color: black;
+    margin-right: 2em;
+    /* align-items: center;
+    place-items: center; */
 }
