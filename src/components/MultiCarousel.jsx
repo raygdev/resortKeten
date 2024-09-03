@@ -2,6 +2,8 @@ import React from "react"
 import "./MultiCarousel.css"
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+import "../assets/carousel/1.jpg"
+import rinja from "../assets/mt-rinja.jpg"
 
 export default function MultiCarousel(){
     const responsive = {
@@ -42,8 +44,8 @@ export default function MultiCarousel(){
             dotListClass="custom-dot-list-style"
             itemClass="carousel-item-padding-40-px"
             >
-            <div>Item 1</div>
-            <div>Item 2</div>
+            <div src={"../assets/carousel/1.jpg"} className="1">Item 1</div>
+            <div src={rinja}>Item 2</div>
             <div>Item 3</div>
             <div>Item 4</div>
             </Carousel>;

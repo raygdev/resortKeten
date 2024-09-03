@@ -1,8 +1,26 @@
-# React + Vite
+# resortKen
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Overview
+Website for a getaway resort 
 
-Currently, two official plugins are available:
+### Features
+Peruse curated prints of landscapes, activities and local life to get a sense of what it's like to be at your chosen getaway. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+View detailed photos of your private villa, with a picture of every room and amenity. 
+
+Book your getaway online to reserve your dates.
+
+Contact us for more information or questions you may have.
+
+### Running the project
+1. Clone this project locally
+2. cd into the project directory
+3. To run the app on your local device, make sure to install the appropriate packages and run using the following command:
+npm install 
+npm run dev
+4. Book your next getaway!
+
+### Dependencies
+React, Vite
+
+### Deployed 
