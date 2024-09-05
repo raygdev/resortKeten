@@ -1,9 +1,12 @@
 .item {
+    /* Give height to the image container*/
     height: 400px;
 }
 
 .item-image {
     display: block;
+    /* give the image 100% height of the parent above */
     height: 100%;
+    /* give it a width of 100% to fill the container */
     width: 100%;
 }
