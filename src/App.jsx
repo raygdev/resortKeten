@@ -8,8 +8,10 @@ function App() {
   return (
     <>
       <Navbar />
-      <Landing />
-      <MultiCarousel />
+      <div className='container'>
+        <Landing />
+        <MultiCarousel />
+      </div>
      
       <div className="card">
         

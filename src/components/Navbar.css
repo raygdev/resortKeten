@@ -1,19 +1,37 @@
 .nav{
-    position: absolute;
+    /* set the nav container to flex */
+    display: flex;
+
+    /* use gap to spread the a.nav-item instead */
+    /* of margin */
+    gap: 2em;
+
+    /* make the position of the nav sticky */
+    /* it will take care of some issues that would */
+    /* happen with absolute positioning */
+    position: sticky;
+
     margin-top: 0;
-    align-self: top;
-    place-items: center;
+
+    /* set it to the top @ 0 */
+    top:0;
+
+    /* put it to the far left */
+    left: 0;
+
+    /* give a little padding to the container */
+    padding: 2em;
+
+    /* this z index is here because the carousel */
+    /* seems to have some absolute positioning */
+    /* if it wasn't used, the navbar would fall behind it */
+    z-index: 1;
 }
 
 a{
     color: black;
-    /* align-items: center;
-    align-self: top; */
 }
 
 a.nav-item{
     color: black;
-    margin-right: 2em;
-    /* align-items: center;
-    place-items: center; */
 }
